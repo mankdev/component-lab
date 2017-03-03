@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../src/config.ts"],"names":[],"mappings":"","sourcesContent":["export interface ComponentLabConfig {\n  webpackConfig: any;\n  host?: string;\n  port?: number;\n  include?: string[];\n  suites: {\n    [suite: string]: string\n  };\n}"]}
